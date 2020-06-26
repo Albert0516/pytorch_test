@@ -1,9 +1,7 @@
-import torch
-from torch.autograd import Variable
-import torch.nn.functional as F
 import matplotlib.pyplot as plt
-import torch.tensor as tensor
-
+import torch
+import torch.nn.functional as F
+from torch.autograd import Variable
 
 # compare numpy and pytorch
 
