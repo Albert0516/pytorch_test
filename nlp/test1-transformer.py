@@ -15,6 +15,7 @@ pt_batch = tokenizer(
     truncation=True,
     return_tensors="pt"
 )
+# pt_batch = pt_batch.to('cuda')
 
 for key, value in pt_batch.items():
     print(f"{key}: {value.numpy().tolist()}")
