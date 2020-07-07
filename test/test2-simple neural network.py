@@ -3,7 +3,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 
 
-# test for neural network
+# vision for neural network
 
 
 class Net(nn.Module):

@@ -12,7 +12,7 @@ print(tensor)
 print(variable)
 
 
-# test activate function
+# vision activate function
 
 x = torch.linspace(-5, 5, 200)
 x = Variable(x)

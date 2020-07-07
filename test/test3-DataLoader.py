@@ -1,6 +1,6 @@
 import torch
 import torch.utils.data as Data
-# test for DataLoader
+# vision for DataLoader
 
 BATCH_SIZE = 7
 

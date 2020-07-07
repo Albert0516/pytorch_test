@@ -8,7 +8,7 @@ import torch.nn.functional as F
 import torch.utils.data as Data
 import torch.optim as optim
 
-# picture visualization test
+# picture visualization vision
 # cat_img = Image.open('../Felis_silvestris_catus_lying_on_rice_straw.jpg')
 # print(cat_img.size)
 #

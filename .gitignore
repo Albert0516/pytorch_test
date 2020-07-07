@@ -1,9 +1,9 @@
-#/test/test0-gpu-test.py
-#/test/test1-base-test.py
-#/test/test2-simple neural network.py
-#/test/test3-DataLoader.py
-#/test/test4-linear regression.py
-#/test/test5-MNIST cnn.py
-#/test/test6-tensorboard.py
-#/test/test7-time.py
+#/vision/test0-gpu-vision.py
+#/vision/test1-base-vision.py
+#/vision/test2-simple neural network.py
+#/vision/test3-DataLoader.py
+#/vision/test4-linear regression.py
+#/vision/test5-MNIST cnn.py
+#/vision/test6-tensorboard.py
+#/vision/test7-time.py
 /Felis_silvestris_catus_lying_on_rice_straw.jpg
