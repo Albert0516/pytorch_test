@@ -5,17 +5,6 @@ import torch.utils.data as Data
 BATCH_SIZE = 7
 
 
-class DemoDataset(Data):
-    def __init__(self):
-        pass
-
-    def __len__(self):
-        pass
-
-    def __getitem__(self, item):
-        pass
-
-
 if __name__ == '__main__':
     x = torch.linspace(1, 10, 10)
     y = torch.linspace(10, 1, 10)
