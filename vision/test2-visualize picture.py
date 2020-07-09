@@ -12,15 +12,15 @@ with open('E://test_data//image_0002.pts', 'r') as f:
         y.append(float(tmp[1][:10]))
 
 
-x_data = np.array(x)
-y_data = np.array(y)
-print(x_data, len(x_data.shape))
-print(y_data, len(y_data.shape))
+x = np.array(x)
+y = np.array(y)
+print(x, len(x.shape))
+print(y, len(y.shape))
 
 x = imgplt.imread('E://test_data//image_0002.png')
 plt.imshow(x)
 
-plt.scatter(x_data, y_data, marker='*', color='r')
+plt.scatter(x, y, marker='*', color='r')
 plt.show()
 
 # plt.waitforbuttonpress(0)
