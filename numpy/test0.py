@@ -23,5 +23,66 @@ def sort_by_column(m, n, i):
     print(temp[np.argsort(temp[:, i])])
 
 
+# 给定数组，将该数组按间隔index插入新数组
+def insert_array(i, n):
+    a = np.arange(1, n)
+    b = np.zeros(shape=i*(len(a)-1) + len(a), dtype=int)
+    b[::i+1] = a
+    print(b)
+
+
+# 交换二维数组的行/列
+def exchage():
+    a = np.random.randint(0, 100, size=(3, 3))
+    print(a)
+    print(a[[2, 0, 1]])
+    print(a[:, [2, 0, 1]])
+
+
+# 矩阵减去其按行均值
+def minus_mean():
+    a = np.random.randint(0, 10, (3, 3))
+    print(a)
+    b = a.mean(axis=1).reshape(3, 1)
+    print(a - b)
+
+
+# 间隔插值
+def insert_one():
+    a = np.zeros(shape=(8, 8), dtype=int)
+    a[::2, 1::2] = 1
+    a[1::2, ::2] = 1
+    print(a)
+
+
+# 正则化矩阵
+def normalization():
+    a = np.random.randint(0, 100, size=(5, 5))
+    print(a)
+    a_min = a.min()
+    a_max = a.max()
+    a = (a-a_min)/(a_max-a_min)
+    print(a)
+
+
+# 冒泡排序
+def bubble_sort(a):
+    print(a)
+    b = a[0]
+    for i in range(len(b)):
+        for j in range(1, len(b)-i):
+            if b[j] < b[j-1]:
+                b[j], b[j-1] = b[j-1], b[j]
+    print(a)
+
+
 if __name__ == '__main__':
-    sort_by_column(6, 6, 4)
+    # sort_by_column(6, 6, 4)
+    # insert_array(4, 7)
+    # exchage()
+    # minus_mean()
+    # normalization()
+    bubble_sort(np.random.randint(0, 100, size=(1, 20)))
+
+
+

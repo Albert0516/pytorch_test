@@ -1,6 +1,5 @@
 import h5py
 import numpy as np
-import time
 import matplotlib.pyplot as plt
 
 file_path = 'E://BaiduNetdiskDownload//Face-Occlusion-Detect//data//cofw//COFW_train.mat'
