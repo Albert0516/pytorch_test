@@ -36,7 +36,3 @@ for index in range(len(images)):
     plt.draw()
     plt.pause(0.5)
     plt.clf()
-
-
-
-

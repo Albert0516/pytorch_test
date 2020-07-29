@@ -8,5 +8,6 @@
 #/vision/test7-time.py
 /test/test10-glob.py
 /data augmentation/*.py
+/data augmentation/test10-agumentation.py
 *.jpg
 *.png

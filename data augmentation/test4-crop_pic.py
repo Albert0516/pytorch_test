@@ -33,7 +33,7 @@ img = img[y0:y1, x0:x1, :]
 cv_show('Croped', img)
 
 # 保存
-newPath = '' # 新路径
+newPath = ''                                        # 新路径
 cv2.imwrite(newPath, img)
 # # 如果路径中含有中文
 # cv2.imencode('.jpg', img)[1].tofile(newPath)

@@ -1,3 +1,4 @@
+# coding=utf-8
 import torch
 
 # 测试pytorch-GPU是否能用
