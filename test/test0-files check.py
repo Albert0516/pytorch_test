@@ -3,7 +3,7 @@ import os
 PATH = 'E://PyCharm_project//Pytorch-UNet//data'
 
 
-# 数据整理（图片&标签匹配）
+# 数据整理（图片&标签匹配）,贪心算法
 def list_dir(folder1, folder2):
     list1 = os.listdir(PATH + folder1)
     list2 = os.listdir(PATH + folder2)

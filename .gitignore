@@ -5,9 +5,9 @@
 #/vision/test4-linear regression.py
 #/vision/test5-MNIST cnn.py
 #/vision/test6-tensorboard.py
-#/vision/test7-time.py
+/vision/*.py
 /test/test10-glob.py
-/data augmentation/*.py
-/data augmentation/test10-agumentation.py
+/data-augmentation/*.py
+/data-augmentation/test10-augmentation.py
 *.jpg
 *.png
